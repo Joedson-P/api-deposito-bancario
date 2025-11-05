@@ -1,12 +1,11 @@
 import os
-import sys
 import joblib
 import pandas as pd
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from typing import Literal
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from src.custom_transformers import BinaryMapper, MonthMapper
 
 # --- Configuração e carregamento do modelo ---
 
