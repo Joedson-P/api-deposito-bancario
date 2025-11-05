@@ -5,8 +5,6 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from typing import Literal
 
-from src.custom_transformers import BinaryMapper, MonthMapper
-
 # --- Configuração e carregamento do modelo ---
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
