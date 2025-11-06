@@ -11,13 +11,14 @@ Esta é uma API RESTful em **FastAPI** para servir um modelo de **Machine Learni
 - **Deploy:** Docker
 
 ## Estrutura Essencial
-├── app/ 
-| └── main.py
-├── Dockerfile
-├── .gitignore
-├── LICENSE
-├── requirements.txt
-└── run_server.py
+  .        
+  ├── app/        
+  │ └── main.py        
+  ├── Dockerfile        
+  ├── .gitignore        
+  ├── LICENSE        
+  ├── requirements.txt        
+  └── run_server.py      
 
 ## Como Rodar a Aplicação com Docker
 
