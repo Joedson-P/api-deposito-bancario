@@ -9,7 +9,7 @@ from typing import Literal
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-MODEL_PATH = os.path.join(BASE_DIR, '..', 'models', 'rf_pipeline.pkl')
+MODEL_PATH = os.path.join(BASE_DIR, '..', 'models', 'rf_portable_pipeline.pkl')
 
 MODEL = None
 try:
