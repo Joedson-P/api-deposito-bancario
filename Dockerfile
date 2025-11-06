@@ -20,6 +20,6 @@ COPY models/ models/
 EXPOSE 8000
 
 # Roda a aplicação Uvicorn
-COPY run_server.py
+COPY run_server.py .
 
 CMD ["python", "run_server.py"]
